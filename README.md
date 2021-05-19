@@ -1,5 +1,5 @@
 # SortingVisualizer
 
-<h5>
+<h4>
   This is a visual representation of all the sorting algorithms.
-</h5>
+</h4>
