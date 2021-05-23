@@ -5,5 +5,4 @@
 </h4>
 <hr>
 <h4>Go ahead and check out the visualizations</h4>
-<br>
-<a href = "https://shambhawibhure.github.io/SortingVisualizer/" target="_blank">SORTING VISUALIZER</a>
+<a href = "https://shambhawibhure.github.io/SortingVisualizer/"  target="_blank">SORTING VISUALIZER</a>
