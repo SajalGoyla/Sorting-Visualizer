@@ -1,5 +1,3 @@
-
-//Variables (BE CAREFUL THESE MIGHT BE USED IN OTHER JS FILES TOO)
 var inp_as=document.getElementById('a_size'),array_size=inp_as.value;
 var inp_gen=document.getElementById("a_generate");
 var inp_aspeed=document.getElementById("a_speed");
@@ -28,7 +26,7 @@ function generate_array()
         divs[i]=document.createElement("div");
         cont.appendChild(divs[i]);
         margin_size=0.1;
-        divs[i].style=" margin:0% " + margin_size + "%; background-color:blue; width:" + (100/array_size-(2*margin_size)) + "%; height:" + (div_sizes[i]) + "%;";
+        divs[i].style=" margin:0% " + margin_size + "%; background-color:#00adb5; width:" + (100/array_size-(2*margin_size)) + "%; height:" + (div_sizes[i]) + "%;";
     }
 }
 
@@ -46,6 +44,7 @@ for(var i=0;i<butts_algos.length;i++)
     butts_algos[i].addEventListener("click",runalgo);
 }
 
+//To disable buttons while a algo is running
 function disable_buttons()
 {
     for(var i=0;i<butts_algos.length;i++)
