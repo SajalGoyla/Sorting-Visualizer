@@ -35,7 +35,7 @@ function Selection_sort()
 
             div_update(divs[index_min],div_sizes[index_min],"#ce1212");//Height update
             div_update(divs[i],div_sizes[i],"#ce1212");//Height update
-            div_update(divs[index_min],div_sizes[index_min],"b#00adb5");//Color update
+            div_update(divs[index_min],div_sizes[index_min],"#00adb5");//Color update
         }
         div_update(divs[i],div_sizes[i],"#4aa96c");//Color update
     }
