@@ -21,7 +21,7 @@ function Insertion()
             div_update(divs[i],div_sizes[i],"#00adb5");//Color update
             if(i==(j-1))
             {
-                div_update(divs[i+1],div_sizes[i+1],"yellow");//Color update
+                div_update(divs[i+1],div_sizes[i+1],"#ffcc29");//Color update
             }
             else
             {
