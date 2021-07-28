@@ -25,6 +25,8 @@ function vis_speed()
 var delay_time=10000/(Math.floor(array_size/10)*speed);        //Decrease numerator to increase speed.
 var c_delay=0;
 
+
+//changes the colour and height according to the algorithm running
 function div_update(cont,height,color)
 {
     window.setTimeout(function(){
@@ -32,6 +34,8 @@ function div_update(cont,height,color)
     },c_delay+=delay_time);
 }
 
+
+//after the visualizations are done, all the buttons are enabled
 function enable_buttons()
 {
     window.setTimeout(function(){
