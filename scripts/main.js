@@ -5,8 +5,8 @@ var inp_aspeed=document.getElementById("a_speed");
 
 var butts_algos=document.querySelectorAll(".algos button");
 
-var div_sizes=[];
-var divs=[];
+var div_sizes=[]; //heights of the bars
+var divs=[];   //actual blocks(elements)
 var margin_size;
 var cont=document.getElementById("array_container");
 cont.style="flex-direction:row";
@@ -16,6 +16,8 @@ cont.style="flex-direction:row";
 inp_gen.addEventListener("click",generate_array);
 inp_as.addEventListener("input",update_array_size);
 
+
+//generate an array and stores it in the variables
 function generate_array()
 {
     cont.innerHTML="";
@@ -59,6 +61,8 @@ function disable_buttons()
     }
 }
 
+
+//actually running the algorithms
 function runalgo()
 {
     disable_buttons();
